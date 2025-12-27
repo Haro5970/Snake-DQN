@@ -1,0 +1,36 @@
+{
+	"state_size": [
+		13,
+		13
+	],
+	"act_size": 3,
+	"hidden_layer": [
+		[
+			[
+				4,
+				[
+					3,
+					3
+				]
+			],
+			[
+				2,
+				[
+					3,
+					3
+				]
+			]
+		],
+		[
+			32,
+			32,
+			16
+		]
+	],
+	"memory_size": 2048,
+	"learning_rate": 0.01,
+	"gamma": 0.95,
+	"ep_start": 1.0,
+	"ep_end": 0.001,
+	"epsilon": 0.001
+}
